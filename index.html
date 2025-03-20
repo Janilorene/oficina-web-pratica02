@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 2</title>
+</head>
+
+<body>
+    <script>
+        var raio, comprimento, area, volume;
+
+        raio = parseFloat(prompt("Informe o raio"));
+        
+
+        comprimento = 2*Math.PI*raio;
+        area = 4*Math.PI*Math.pow(raio, 2);
+        volume = 3/4*Math.PI*Math.pow(raio, 3);
+
+        document.write(`Comprimento da esfera de raio: ${raio}cm = ${comprimento.toFixed(2)} <br>`);
+        document.write(`Área da esfera de raio: ${raio}cm = ${area.toFixed(2)} <br>`);
+        document.write(`Volume da esfera de raio: ${raio}cm = ${volume.toFixed(2)} <br>`);
+
+    
+    </script>
+</body>
+
+</html>
