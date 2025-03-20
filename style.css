@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: block;
+}
+
+.bloco{
+    margin: 20px 20px 20px 20px;
+    padding: 10%;
+    border: 4px solid black;
+    text-align: center;
+    font-size: 3rem;
+}
