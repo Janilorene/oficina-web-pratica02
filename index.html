@@ -10,22 +10,24 @@
 <header>
     <h1>Cálculos da Esfera</h1>
 </header>
+
 <body>
+    <div class="container">
+
+    </div>
     <script>
         var raio, comprimento, area, volume;
 
         raio = parseFloat(prompt("Informe o raio"));
+
+
+        comprimento = 2 * Math.PI * raio;
+        area = 4 * Math.PI * Math.pow(raio, 2);
+        volume = 3 / 4 * Math.PI * Math.pow(raio, 3);
         
-
-        comprimento = 2*Math.PI*raio;
-        area = 4*Math.PI*Math.pow(raio, 2);
-        volume = 3/4*Math.PI*Math.pow(raio, 3);
-
         document.write(`<div class="bloco">Comprimento da esfera de raio: ${raio}cm = ${comprimento.toFixed(2)} <br> </div>`);
         document.write(`<div class="bloco">Área da esfera de raio: ${raio}cm = ${area.toFixed(2)} <br></div>`);
         document.write(`<div class="bloco">Volume da esfera de raio: ${raio}cm = ${volume.toFixed(2)} <br></div>`);
-
-    
     </script>
 </body>
 
